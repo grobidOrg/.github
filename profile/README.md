@@ -90,10 +90,10 @@ The documentation covers:
 
 Two public demo servers are available thanks to HuggingFace:
 
-- **With Deep Learning + CRF models**: [https://kermitt2-grobid.hf.space/](https://kermitt2-grobid.hf.space/)
-- **With CRF only (faster)**: [https://kermitt2-grobid-crf.hf.space/](https://kermitt2-grobid-crf.hf.space/)
+- [https://grobidOrg-grobid.hf.space/](https://grobidOrg-grobid.hf.space/)
+- [https://grobidOrg-grobid2.hf.space/](https://grobidOrg-grobid2.hf.space/)
 
-⚠️ **Warning**: These demo servers have quota limitations. For serious use, please deploy your own GROBID server.
+⚠️ **Warning**: These demo servers are using only CRF models (faster) and have quota limitations. For serious use, please deploy your own GROBID server.
 
 ## Performance
 
@@ -121,9 +121,10 @@ If you use GROBID in your research, please cite:
 ```bibtex
 @misc{GROBID,
     title = {GROBID},
+    key = {GROBID},
     howpublished = {\url{https://github.com/kermitt2/grobid}},
     publisher = {GitHub},
-    year = {2008--2025},
+    date = {2008/2026},
     archivePrefix = {swh},
     eprint = {1:dir:dab86b296e3c3216e2241968f0d63b68e8209d3c}
 }
